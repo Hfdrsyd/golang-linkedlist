@@ -1,7 +1,7 @@
 # golang-linkedlist
 Singly Linked-list menggunakan Golang
 
-linked list terdiri nodeyang dihubungkan. node tersebut terdiri dari value yang disimpan pada node tersebut dan pointer menuju node selanjutnya. Ujung awal dari linked-list disimpan untuk membantu menandai suatu linked-list. 
+linked list terdiri node yang dihubungkan. node tersebut terdiri dari value yang disimpan pada node tersebut dan pointer menuju node selanjutnya. Ujung awal dari linked-list disimpan untuk membantu menandai suatu linked-list. 
 ```go
 type node struct {
 	data int
