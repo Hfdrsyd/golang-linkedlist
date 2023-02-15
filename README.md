@@ -67,6 +67,7 @@ func (list *Linkedlist) print(){
 
 <h2>I/O</h2>
 <h3>fungsi main atau input kedalam linked-list</h3>
+
 ```go
 func main() {
 	var myList Linkedlist
@@ -89,7 +90,11 @@ func main() {
 	myList.print()
 }
 ```
+
+
 <h3>Output dari operasi</h3>
+
+
 ```
 5 ->
 5 -> 99 ->
