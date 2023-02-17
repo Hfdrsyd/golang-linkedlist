@@ -42,6 +42,7 @@ func (list *Linkedlist) LL_push(value int) {//merupakan method dari suatu pointe
 2. fungsi untuk menghapus elemen di akhir linked-list(pop_back)
 ```go
 func (list *Linkedlist) pop()  {
+	list.size--
 	temp:=list.head
 	if temp.next==nil {
 		list.head=nil
