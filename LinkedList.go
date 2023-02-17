@@ -47,6 +47,7 @@ func (list *Linkedlist) print(){
 // 	}
 // 	CurTemp.next =nil
 func (list *Linkedlist) pop()  {
+	list.size--
 	temp:=list.head
 	if temp.next==nil {
 		list.head=nil
